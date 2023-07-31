@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body{
+    background-color: #F11A7B;
+    height: 90vh;
+}
+
+h1{
+    color: #3E001F;
+    font-weight: bold;
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+.names{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gen{
+    width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid black;
+
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  transform: rotate(90deg);
+    
+}
